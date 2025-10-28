@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Jasper's professional portfolio showcasing web development and cyber systems projects." />
+  <title>Jasper A. Cabalhug Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <div class="falling-circles"></div>
+  <header role="banner">
+    <div class="logo-title">
+      <img src="logo.png" alt="Jasper A. Cabalhug" class="site-logo"/>
+    <h1>Jasper A. Cabalhug Portfolio</h1>
+    </div>
+    <nav role="navigation">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="intro fade-in" aria-labelledby="home-heading">
+      <div class="intro-text">
+        <h2 id="home-heading"><span>UI</span> Developer</h2>
+        <p>Hi.. My name is Jasper A. Cabalhug</p>
+        <P>I'm 23 year old a UI developer</P>
+        <p>Everyday, I grow into a better version of myself</p>
+        <p>I choose positivity, I choose me</p>
+        <p>My thoughts create my reality and choose good ones</p>
+        <p>I release the need for perfection and embrace who I am</p>
+        <p>Building digital experiences that merge creativity with technology</p>
+        <p>Specializing in modern web development and cyber systems</p>
+         <div class="hobbies">
+  <h3>My Hobbies</h3>
+  <ul>
+    <li>🎧 Listening to Music</li>
+    <li>📚 Reading Books</li>
+    <li>🎨 Drawing</li>
+    <li>📺 Watching  Anime, Documentaries and Wildlife</li>
+    <li>🕹️ Exploring UI/UX Trends</li>
+  </ul>
+</div>
+        <button onclick="document.getElementById('contact').scrollIntoView()">Let's Connect</button>
+      </div>
+      <div class="intro-image">
+        <img src="jasper portrait.png" alt="Jasper Portrait" />
+      </div>
+    </section>
+
+    <section id="projects" class="fade-in" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <div class="gallery">
+        <div class="card">
+          <h3>Code Snippet Library</h3>
+          <p>Reusable JavaScript algorithms for study and projects.</p>
+          <div class="card-links">
+            <a href="https://github.com/your-repo1" target="_blank">View Code</a>
+            <a href="https://your-live-demo1.com" target="_blank">Live Demo</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Safety Analyzer</h3>
+          <p>Hazard analysis using Ishikawa diagrams and checklists.</p>
+          <div class="card-links">
+            <a href="https://github.com/your-repo2" target="_blank">View Code</a>
+            <a href="https://your-live-demo2.com" target="_blank">Live Demo</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Array Toolkit</h3>
+          <p>Deep copy, shuffle, and parse arrays with clean functions.</p>
+          <div class="card-links">
+            <a href="https://github.com/your-repo3" target="_blank">View Code</a>
+            <a href="https://your-live-demo3.com" target="_blank">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-images">
+        <img src="project1.jpg" alt="Project 1 Screenshot" />
+        <img src="project2.jpg" alt="Project 2 Screenshot" />
+        <img src="project3.jpg" alt="Project 3 Screenshot" />
+        <img src="project4.jpg" alt="Project 4 Screenshot" />
+        <img src="project5.jpg" alt="Project 5 Screenshot" />
+        <img src="travel.jpg" alt="Project 6 Screenshot" />
+        <img src="jas1.jpg" alt="Project 7 Screenshot" />
+        <img src="jas2.jpg" alt="Project 8 Screenshot" />
+        <img src="biography.jpg" alt="Project 9 Screenshot" />
+        <img src="drawing.jpg" alt="Project 10 Screenshot" />
+      </div>
+
+      <div class="project-videos">
+        <video autoplay muted loop poster="thumb1.png">
+          <source src="Programming 1 Music Video (1) (1).mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <video autoplay muted loop poster="thumb2.png">
+          <source src="wow.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <section id="contact" class="fade-in" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="form-box">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" aria-label="Your Name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" aria-label="Your Email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" aria-label="Your Message" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+          <p id="formStatus"></p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Jasper. All rights reserved.</p>
+    <div class="socials">
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
